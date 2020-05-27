@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Pizza order">
+    <meta name="keywords" content="pizza, toppings, order, price">
+    <meta name="author" content="Alexandre Hang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pizza orderer</title>
+      <script src="index.js"></script>
+  </head>
+  <body>
+    <h2>Enter the information below for your pizza</h2>
+    <label for="size">size of pizza (large or extra large):</label>
+    <input type="text" id="pizzaSize" name="size"><br><br>
+    <label for="toppings">Number of toppings (max. 4):</label>
+    <input type="text" id="numToppings" name="toppings"><br><br>
+    <button onclick="totalPrice()" id="myButton">Click here for total price</button>
+  </body>
+</html>
